@@ -1,0 +1,292 @@
+#main-navbar {
+     background-color: #fff;
+}
+
+#main-navbar .navbar-brand {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+}
+
+#main-navbar .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    color: #212529;
+}
+
+.navbar-brand:hover {
+    color: rgb(13 110 253) !important;
+}
+
+.modal-header {
+    background-image: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+.website-title {
+    background-color: #f8f9fa;
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.app-badge {
+    height: 3rem;
+}
+
+.phone-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-section .circle {
+    width: 70%;
+    fill: url(#mygradient);
+    position: absolute;
+}
+
+.website-title .phone-section .circle .gradient-start-color {
+    stop-color: #2937f0;
+}
+
+.website-title .phone-section .circle .gradient-end-color {
+    stop-color: #9f1ae2;
+}
+
+.website-title .phone-section .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 15%;
+    left: 10%;
+}
+
+.website-title .phone-section .shape-2 {
+    position: absolute;
+    fill: #2937f0;
+    top: 15%;
+    right: 10%;
+}
+
+.website-title .phone-section .device-wrapper {
+    max-width: 17rem;
+    min-width: auto;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    /* position: absolute;
+    bottom: -240px;
+    right: 80px; */
+}
+
+aside {
+ padding: 5rem 0 5rem 0;   
+}
+
+.custom-bg-gradient {
+    background-image: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+.logo {
+    height: 3rem;
+}
+
+.icon-size {
+    font-size: 4rem;
+}
+
+.icon-gradient {
+    background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-style {
+    font-family: "Kanit", sans-serif;
+}
+
+section {
+    padding: 5rem 0 5rem 0;   
+}
+
+.phone-section .circle-1 {
+    width: 85%;
+    fill: url(#mygradient);
+    position: absolute;
+    left: -15%;
+}
+
+.phone-section .shape-1-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-60deg);
+    fill: #2937f0;
+    top: 5%;
+    right: -5%;
+}
+
+.phone-section .shape-2-2 {
+    position: absolute;
+    fill: #2937f0;
+    bottom: 10%;
+    left: -5%;
+}
+
+.phone-section .device-wrapper-1 {
+    max-width: 17rem;
+    min-width: auto;
+}
+
+.background {
+    position: relative;
+    padding: 15rem 0 15rem 0;
+    background-image: url(assets/images/1500x800.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.background-content {
+    position: relative;
+    z-index: 1;
+}
+ 
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(255 255 255 / 75%);
+}
+
+
+/* Project-9964P Css Media Queries */
+@media (max-width: 575px) {
+   .circle-1 {
+    display: none;
+   }
+   circle {
+    display: none;
+   }
+}
+
+@media (max-width: 992px) {
+    .phone-section .shape-1-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-60deg);
+        fill: #2937f0;
+        top: 5%;
+        right: -15%;
+    }
+
+    .phone-section .shape-2-2 {
+        position: absolute;
+        fill: #2937f0;
+        bottom: 10%;
+        left: -15%;
+    }
+
+    .phone-section .circle {
+        width: 90%;
+        fill: url(#mygradient);
+        position: absolute;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .phone-section .shape-1-1 {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        transform: rotate(-60deg);
+        fill: #2937f0;
+        top: 15%;
+        right: 10%;
+    }
+
+    .phone-section .shape-2-2 {
+        position: absolute;
+        fill: #2937f0;
+        bottom: 15%;
+        left: 10%;
+    }
+
+    .phone-section .circle {
+        width: 70%;
+        fill: url(#mygradient);
+        position: absolute;
+    }
+
+    .phone-section .circle-1 {
+        width: 65%;
+        fill: url(#mygradient);
+        position: absolute;
+        left: 17%;
+    }
+ }
+
+ @media (max-width: 576px) {
+    .phone-section .circle {
+        width: 90%;
+        fill: url(#mygradient);
+        position: absolute;
+    }
+
+    .phone-section .circle-1 {
+        width: 90%;
+        fill: url(#mygradient);
+        position: absolute;
+        left: 5%;
+    }
+ }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

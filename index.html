@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="OnlyJS" />
+    <meta name="description" content="New Age - Start Bootstrap Theme" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Age - Start Bootstrap Theme</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav
+      class="navbar-expand-lg py-2 navbar-light shadow-sm fixed-top"
+      id="main-navbar"
+    >
+      <div class="container px-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#start">Start Bootstrap</a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive"
+              aria-controls="navbarResponsive"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              Menu
+              <i class="bi bi-list"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#download">Download</a>
+                </li>
+                <li class="nav-item">
+                  <button
+                    class="btn btn-primary rounded-pill ms-lg-3 mt-3 mt-lg-0 px-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-chat-text-fill me-2"></i>
+                      <span class="text-white small">Send Feedback</span>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header p-4">
+            <h5 class="modal-title text-white" id="exampleModalLabel">
+              Send feedback
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body border-0 p-4">
+            <form
+              action="https://formsubmit.co/tanriverdileranil@gmail.com"
+              method="POST"
+            >
+              <!-- Name Input -->
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="enter-your-name"
+                />
+                <label for="name">Full name</label>
+              </div>
+              <!-- Email Address Input -->
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="email"
+                />
+                <label for="email">Email address</label>
+              </div>
+              <!-- Phone Number Input -->
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="(123) 456-7890"
+                />
+                <label for="phone">Phone number</label>
+              </div>
+              <!-- Message Input -->
+              <div class="form-floating mb-3">
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="message"
+                  style="height: 10rem"
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+              <!-- Submit Button -->
+              <div class="d-grid">
+                <button
+                  type="submit"
+                  class="btn btn-primary rounded-pill btn-lg"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Title Section -->
+    <header class="website-title">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+          <!-- Heading Section -->
+          <div class="col-lg-6">
+            <div class="mb-4 mb-lg-0 text-center text-lg-start">
+              <h1 class="display-1 lh-1 mb-3">
+                Showcase your app beautifully.
+              </h1>
+              <p class="lead fw-normal text-muted mb-5">
+                Launch your mobile app landing page faster with this free, open
+                source theme from Start Bootstrap!
+              </p>
+              <div class="d-flex flex-lg-row flex-column align-items-center">
+                <a href="#google" class="me-lg-3 mb-4 mb-lg-0">
+                  <img
+                    src="assets/images/google-play-badge.svg"
+                    class="app-badge"
+                    alt="google-button"
+                  />
+                </a>
+                <a href="#apple" class="me-lg-3 mb-4 mb-lg-0">
+                  <img
+                    src="assets/images/app-store-badge.svg"
+                    class="app-badge"
+                    alt="google-button"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Phone - 1 Section -->
+          <div class="col-lg-6">
+            <div class="phone-section position-relative">
+              <svg
+                class="circle"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient
+                    id="mygradient"
+                    gradientTransform="rotate(45)"
+                  >
+                    <stop offset="0%" class="gradient-start-color"></stop>
+                    <stop offset="100%" class="gradient-end-color"></stop>
+                  </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="50"></circle>
+              </svg>
+              <!-- Shape - 1 Section -->
+              <svg
+                class="shape-1 d-none d-sm-block"
+                viewBox="0 0 240.83 240.83"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="306"
+                  height="84"
+                  x="-32.50"
+                  y="78.39"
+                  rx="42"
+                  transform="translate(120.42 -49.88) rotate(45)"
+                ></rect>
+                <rect
+                  width="306"
+                  height="84"
+                  x="-32.50"
+                  y="78.39"
+                  rx="42"
+                  transform="translate(-49.88 120.42) rotate(-45)"
+                ></rect>
+              </svg>
+              <!-- Shape - 2 Section -->
+              <svg
+                class="shape-2"
+                viewBox="0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+              >
+                <circle cx="6" cy="6" r="6" />
+              </svg>
+              <div class="device-wrapper z-1">
+                <img
+                  src="assets/images/phone-screen.png"
+                  class="img-fluid"
+                  alt="phone"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Logo Section -->
+    <aside class="text-center custom-bg-gradient">
+      <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-xl-8">
+            <div class="h2 fs-1 text-white mb-4">
+              "An intuitive solution to a common problem that we all face,
+              wrapped up in a single app!"
+            </div>
+            <img class="logo" src="assets/images/tnw-logo.svg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Icon Section -->
+    <section id="features">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+          <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+            <div class="container-fluid px-5">
+              <div class="row gx-5">
+                <!-- Icon - 1 -->
+                <div class="col-md-6 mb-5">
+                  <div class="text-center">
+                    <i
+                      class="bi bi-phone icon-size icon-gradient d-block mb-3"
+                    ></i>
+                    <h3 class="font-style">Device Mockups</h3>
+                    <p class="text-muted mb-0">
+                      Ready to use HTML/CSS device mockups, no Photoshop
+                      required!
+                    </p>
+                  </div>
+                </div>
+                <!-- Icon - 2 -->
+                <div class="col-md-6 mb-5">
+                  <div class="text-center">
+                    <i
+                      class="bi bi-camera icon-size icon-gradient d-block mb-3"
+                    ></i>
+                    <h3 class="font-style">Flexible Use</h3>
+                    <p class="text-muted mb-0">
+                      Put an image, video, animation, or anything else in the
+                      screen!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Icon - 3 -->
+                <div class="col-md-6 mb-md-0 mb-5">
+                  <div class="text-center">
+                    <i
+                      class="bi bi-gift icon-size icon-gradient d-block mb-3"
+                    ></i>
+                    <h3 class="font-style">Free to Use</h3>
+                    <p class="text-muted mb-0">
+                      As always, this theme is free to download and use for any
+                      purpose!
+                    </p>
+                  </div>
+                </div>
+                <!-- Icon - 4 -->
+                <div class="col-md-6">
+                  <div class="text-center">
+                    <i
+                      class="bi bi-patch-check icon-size icon-gradient d-block mb-3"
+                    ></i>
+                    <h3 class="font-style">Open Source</h3>
+                    <p class="text-muted mb-0">
+                      Since this theme is MIT licensed, you can use it
+                      commercially!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone - 2 Section -->
+          <div class="col-lg-4 order-lg-0">
+            <div class="phone-section position-relative">
+              <svg
+                class="circle-1"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient
+                    id="mygradient"
+                    gradientTransform="rotate(45)"
+                  >
+                    <stop offset="0%" class="gradient-start-color"></stop>
+                    <stop offset="100%" class="gradient-end-color"></stop>
+                  </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="50"></circle>
+              </svg>
+              <!-- Shape - 1-1 Section -->
+              <svg
+                class="shape-1-1 d-none d-sm-block"
+                viewBox="0 0 240.83 240.83"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="306"
+                  height="84"
+                  x="-32.50"
+                  y="78.39"
+                  rx="42"
+                  transform="translate(120.42 -49.88) rotate(45)"
+                ></rect>
+                <rect
+                  width="306"
+                  height="84"
+                  x="-32.50"
+                  y="78.39"
+                  rx="42"
+                  transform="translate(-49.88 120.42) rotate(-45)"
+                ></rect>
+              </svg>
+              <!-- Shape - 2-2 Section -->
+              <svg
+                class="shape-2-2"
+                viewBox="0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+              >
+                <circle cx="6" cy="6" r="6" />
+              </svg>
+              <div class="device-wrapper-1 z-1">
+                <img
+                  src="assets/images/phone-screen.png"
+                  class="img-fluid"
+                  alt="phone"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Circle Image Section -->
+    <section class="bg-light">
+      <div class="container px-5">
+        <div
+          class="row gx-5 align-items-center justify-content-center justify-content-lg-between"
+        >
+          <div class="col-12 col-lg-5">
+            <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+              This section is perfect for featuring some information about your
+              application, why it was built, the problem it solves, or anything
+              else! There's plenty of space for text here, so don't worry about
+              writing too much.
+            </p>
+          </div>
+          <div class="col-sm-8 col-md-6">
+            <div class="px-5 px-sm-0">
+              <img
+                src="assets/images/900x900.jpg"
+                class="img-fluid rounded-circle"
+                alt="image-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blur Image Section -->
+    <section class="background">
+      <div class="background-content">
+        <div class="container px-5">
+          <h2 class="text-white display-1 lh-1 mb-4">
+            Stop waiting.
+            <br />
+            Start building.
+          </h2>
+          <a
+            href="https://startbootstrap.com/theme/new-age"
+            target="_blank"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            >Download for free</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- App Section -->
+    <section class="custom-bg-gradient" id="download">
+      <div class="container px-5">
+        <h2 class="text-center text-white font-style mb-4">Get the app now!</h2>
+        <div
+          class="d-flex flex-column flex-lg-row align-items-center justify-content-center"
+        >
+          <a href="#!" class="me-lg-3 mb-4 mb-lg-0">
+            <img
+              class="app-badge"
+              src="assets/images/google-play-badge.svg"
+              alt="google-button"
+            />
+          </a>
+          <a href="#!">
+            <img
+              class="app-badge"
+              src="assets/images/app-store-badge.svg"
+              alt="apple-button"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-center py-5">
+      <div class="container px-5">
+        <div class="text-white-50 small">
+          <div class="mb-2">
+            © Anıl Tanrıverdiler 2025. All Rights Reserved.
+          </div>
+          <a href="#!">Privacy</a>
+          <span class="mx-1">.</span>
+          <a href="#!">Terms</a>
+          <span class="mx-1">.</span>
+          <a href="#!">FAQ</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script Section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
